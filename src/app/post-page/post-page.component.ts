@@ -2,9 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { PostsService } from '../shared/posts.service';
 import { Observable } from 'rxjs';
 import { Post } from '../shared/interfaces';
-import {ActivatedRoute, Params} from '@angular/router';
-import {switchMap} from 'rxjs/operators';
-import {FormControl, FormGroup, Validators} from '@angular/forms';
+import { ActivatedRoute, Params } from '@angular/router';
+import { switchMap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-post-page',
